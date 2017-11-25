@@ -677,6 +677,8 @@ public class AirMapView extends MapView implements GoogleMap.InfoWindowAdapter,
     } else {
       map.moveCamera(cu);
     }
+    
+    map.setPadding(0, 0, 0, 0);
   }
 
   // InfoWindowAdapter interface
